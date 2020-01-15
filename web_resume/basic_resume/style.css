@@ -98,7 +98,6 @@ p {
 	color: #cf8a05;
 }
 
-
 section {
 	border-top: 1px solid #dedede;
 	padding: 20px 0 0;
@@ -119,7 +118,7 @@ section:last-child {
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 100%;
 }
 
 .sectionTitle h1 {
@@ -131,8 +130,13 @@ section:last-child {
 
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: -2px;
+}
+
+.expDetails {
+	float: right;
+	width: 95%;
 }
 
 .subDetails {
