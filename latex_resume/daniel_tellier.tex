@@ -11,8 +11,8 @@
 
 \begin{rSection}{Skills}
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-    Languages & C/C++, Python, Java, C\#, MySQL, MATLAB, Bash  \\
-    Tools & DataGrip, Agile Development, VSCode, Visual Studio, Unity Game Engine \\
+    Languages & C/C++, Python, Java, C\#, MySQL, MATLAB, Bash, Tcl  \\
+    Tools & DataGrip, Agile Development, VSCode, Visual Studio, Unity Game Engine, CUDA \\
     Cloud Technologies & AWS, Google Cloud \\
     Version Control & Git, GitHub \\
     Operating Systems & Linux, Windows \\
@@ -21,7 +21,12 @@
 
 \begin{rSection}{Employment}
     \begin{rSubsection}{Northrop Grumman - Los Angeles, CA}{June 2020 - Current}{Software Engineer}{}
-        \item Developing test scripts for the UH-60V Black Hawk
+        \item Automated the official testing for the flight management system (FMS) on the Black Hawk Helicopter
+        \item Improved the test scripts run time by finding a pointless socket sending messages every cycle. \hfill \break
+        Once this socket was prevented from running a test script running 10K cycles ran 3 minutes rather \hfill \break
+        than 12 minutes. Now the roughly 220 test scripts for FMS take 5.5 hours rather than 25 hours to run.
+        \item Organized the flight management system test script library
+        \item Generated graphs for analyzing the performance of a partition or application on the Black Hawk
     \end{rSubsection}
     \begin{rSubsection}{nFlux AI - Los Angeles, CA}{Sept. 2019 - May 2020}{Software Engineer Intern}{}
         \item Trained robot to learn soccer in 2D simulation using imitation learning
@@ -40,6 +45,7 @@
         \item Utilized machine learning in soccer simulation
         \item Performed supervised learning on simulation to speed up training time
         \item Increased experience generation of simulation by 20\%
+        \item Developed in Pytorch using Multi-GPU capabilities with CUDA
     \end{rSubsection}
     \begin{rSubsection}{Systems Engineering Research Lab - Los Angeles, CA}{June 2018 - Dec. 2018}{Software Engineer Intern}{}
         \item SERL collaborates with the US Air Force and LA Fire Department
@@ -54,14 +60,6 @@
     \\ B.S. Computer Science \hfill { Overall GPA: 3.6 }
     \\ Dean's List \hfill {Spring 2015, Fall 2015, Fall 2016}
     \\ Courses \hfill {Machine Learning, Data Mining, Data Structures, Statistics}
-\end{rSection}
-
-\begin{rSection}{Projects}
-    \begin{rSubsection}{Galana}{Jan. 2019 - May 2019}{}{}
-        \item Utilized transfer learning to train neural networks to identify galaxies
-        \item Developed convolutional neural networks using Keras and Tensorflow
-        \item Reached an accuracy of over 90\% in terms of classifying galaxies
-    \end{rSubsection}
 \end{rSection}
 
 \end{document}
